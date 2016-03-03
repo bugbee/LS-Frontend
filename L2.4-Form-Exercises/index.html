@@ -31,6 +31,20 @@
     	font: bold 14px Helvetica;
     	border-radius: 5px;
     }
+    hr {
+    	margin: 35px 0;
+    }
+    /*#go {
+    	margin: 15px;
+    	width: 20em;
+    	height: 3em;
+    	font: bold 14px Helvetica;
+    	border-radius: 5px;
+    }*/
+    #review {
+    	padding: 15px 0;
+    	vertical-align: top;
+    }
     </style>
   </head>
   <body>
@@ -55,11 +69,56 @@
 	<button id="send" type="submit">Send</button>
 	</div>
 	<div>
-	<button type="reset">Reset</button>
+	<button type="reset" id="search">Reset</button>
 	</div>
 
 </form>
 
+<hr />
+<hr />
+
+<form>
+
+<select>
+<option>TV</option>
+<option>Movie</option>
+<option>Music</option>
+</select>
+
+<label for"search">Search:</label>
+<input type="search" id="search" name="search" autosave />
+
+<button type="button" id="go">Go!</button>
+
+</form>
+
+<hr />
+<hr />
+
+<form>
+
+<fieldset>
+  <legend>Select a Film to review</legend>
+  <p><label for="movie_looper"><input type="radio" name="movie" id="movie_looper" value="Looper"> Looper</label></p>
+  <p><label for="movie_frozen"><input type="radio" name="movie" id="movie_frozen" value="Frozen"> Frozen</label></p>
+  <p><label for="movie_tommy"><input type="radio" name="movie" id="movie_tommy" value="Tommy Boy"> Tommy Boy</label></p>
+</fieldset>
+
+	<p>
+	<label for="review">Review:</label>
+	<textarea id="review" name="review"></textarea>
+	</p>
+	<p>
+	<label for="rating">Give your star rating:</label>
+	<input type="range" value="1" min="1" max="5" step="1" />
+	</p>
+	<p>
+	<label for="checkbox">Add to Favorites?</label>
+	<input type="checkbox" checked></input>
+	</p>
+<button type="submit" id="send">Send</button>
+
+</form>
 
 
   </body>
