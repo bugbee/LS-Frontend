@@ -1,0 +1,55 @@
+
+/* ===================
+    GLOBAL Theme
+   =================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial, sans-serif;
+    background: url(img/bg_body.gif);
+}
+
+header {
+    margin: 100px auto;
+    width: 298px;
+}
+
+main {
+    background: #fff;
+    width: 75%;
+    margin: 0 auto;
+    display: table;
+    text-align: center
+}
+
+article {
+  padding: 0 100px 100px;
+}
+
+h2 {
+  font-size: 1.9em;
+  margin: 79px 100px 50px;
+}
+
+ h3 {
+  color: #47A2BB;
+ }
+
+footer {
+    background: #ccc;
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer ul {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+}
+
+footer li {
+    display: inline;
+    padding: 10px 35px;
+    list-style: none;
+ }   
+}
+
