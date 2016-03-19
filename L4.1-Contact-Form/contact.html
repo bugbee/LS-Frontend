@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<h1>Contact us</h1>
+		</header>
+		<section>
+			<form action="#" method="post">
+				<fieldset>
+					<legend>About you</legend>
+					<div class="names">
+						<p>
+							<label for="first-name">First Name:
+								<input type="text" name="first-name" id="first-name" placeholder="John">
+							</label>
+						</p>
+						
+						<p>
+							<label for="last-name">Last Name:
+								<input type="text" name="last-name" id="last-name" placeholder="Dope">
+							</label>
+						</p>
+					</div>
+					<div class="email-form">
+						<label for="email">Email:
+							
+							<input type="email" inputmode="email" name="email" id="email" placeholder="jope@email.com" autocomplete="email" autocapitalize="none" autocorrect="off">
+						</label>
+					</div>
+					<div class="phones">
+						<p>
+							<label for="phone-type">Phone Type:
+								
+								<select name="phone-type" id="phone-type">
+									<option value="home">Home</option>
+									<option value="business">Business</option>
+									<option value="mobile" selected>Mobile</option>
+								</select>
+							</label>
+							
+							<label for="phone-number">Phone Number:</dt>
+								
+								
+								<input type="tel" maxlength="14" inputmode="tel" name="phone-number" id="phone-number" placeholder="(555) 345-6789" pattern="\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{4}" autocomplete="tel"><!-- Learn Regex here: http://regexone.com/  -->
+							</label>
+						</p>
+					</div>
+					<div class="address">
+						<p>
+							<label for="street"> Street Address:</dt>
+								
+								
+								<input type="text" id="street" placeholder="1234 Knockamydoor St" name="street">
+							</label>
+						</p>
+						<p>
+							<label for="city"> City:
+								
+								
+								<input type="text" id="city" placeholder="Springville" name="city">
+							</label>
+							
+							<label for="state"> State:</dt>
+								<select name="state" id="state">
+									<option>AK</option>
+									<option>AL</option>
+									<option>AR</option>
+									<option>AZ</option>
+									<option>CA</option>
+									<option>CO</option>
+									<option>CT</option>
+									<option>DC</option>
+									<option>DE</option>
+									<option>FL</option>
+									<option>GA</option>
+									<option>HI</option>
+									<option>IA</option>
+									<option>ID</option>
+									<option>IL</option>
+									<option>IN</option>
+									<option>KS</option>
+									<option>KY</option>
+									<option>LA</option>
+									<option>MA</option>
+									<option>MD</option>
+									<option>ME</option>
+									<option>MI</option>
+									<option>MN</option>
+									<option>MO</option>
+									<option>MS</option>
+									<option>MT</option>
+									<option>NC</option>
+									<option>ND</option>
+									<option>NE</option>
+									<option>NH</option>
+									<option>NJ</option>
+									<option>NM</option>
+									<option>NV</option>
+									<option>NY</option>
+									<option>OH</option>
+									<option>OK</option>
+									<option>OR</option>
+									<option>PA</option>
+									<option>RI</option>
+									<option>SC</option>
+									<option>SD</option>
+									<option>TN</option>
+									<option>TX</option>
+									<option>UT</option>
+									<option>VA</option>
+									<option>VT</option>
+									<option>WA</option>
+									<option>WI</option>
+									<option>WV</option>
+									<option>WY</option>
+								</select>
+							</label>
+							
+							<label for="zip"> Zip Code:
+								<input type="text" id="zip" maxlength="5" title="Five digit zip code please." placeholder="97206" pattern="[\d]{5})">
+							</label>
+						</p>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Which color do you like best?</legend>
+					<dl>
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Ruby"> Ruby
+						</label>
+						<input type="color" value="#e0115f">
+						</dd>
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Sapphire" checked> Sapphire
+						</label>
+						<input type="color" value="#0067a5">
+						</dd>
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Emerald"> Emerald
+						</label>
+						<input type="color" value="#009874">
+						</dd>
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Gold"> Gold
+						</label>
+						<input type="color" value="#ffd200">
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Silver"> Silver
+						</label>
+						<input type="color" value="#c0c0c0">
+						</dd>
+						<dd>
+						<label>
+							<input type="radio" name="color" id="color" value="Turquoise"> Turquoise
+						</label>
+						<input type="color" value="#40E0D0">
+						</dd>
+						
+					</fieldset>
+					<fieldset>
+						<legend>Which web technologies are you interested in?</legend>
+						
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="HTML"> HTML
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="CSS"> CSS
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="Javascript"> Javascript
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="Ruby"> Ruby
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="Rails"> Rails
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="Python"> Python
+						</label>
+						</dd>
+						<dd>
+						<label>
+							<input type="checkbox" name="tags" id="tags" value="Django"> Django
+						</label>
+						</dd>
+					</fieldset>
+					<fieldset class="inner-field">
+						
+							<label for="message">What do you want to say?</label>
+
+							<textarea name="message" cols="55" rows="5"></textarea>
+							
+							<p>
+								<input type="hidden" value="2016-03-13">
+							</p>
+							<p>
+							<button type="submit">Send</button>
+							</p>
+						</fieldset>
+					</ul>
+				</fieldset>
+			</form>
+		</section>
+	</body>
+</html>
